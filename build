@@ -1,0 +1,4 @@
+docker build --rm=true -t rdf-3x .
+
+docker run -it --name rdf-3x rdf-3x /bin/bash
+
